@@ -15,16 +15,16 @@ plugins {
 apply plugin: "io.spinnaker.plugin.bundler"
 
 spinnakerBundle {
-  pluginId = "Armory.RandomWaitPlugin"
+  pluginId = "Armory.JustinWaitPlugin"
   description = "An example of a PF4J based plugin, that provides a new stage."
-  provider = "https://github.com/claymccoy"
+  provider = "https://github.com/justinrlee"
   version = rootProject.version
 }
 
 version = normalizedVersion()
 
 subprojects {
-  group = "io.armory.plugin.stage.wait.random"
+  group = "io.armory.plugin.stage.justin"
   version = rootProject.version
 }
 
